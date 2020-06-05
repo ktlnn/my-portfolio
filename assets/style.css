@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.navbar-brand {
+    font-family: 'teko:wght@500', sans-serif;
+}
+
+.nav-link {
+    font-family: 'teko:wght@300', sans-serif;
+}
+
+main p {
+    text-align: center;
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+}
+
+main img {
+    border-radius: 50%;
+    max-height: 600px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+    font-family: 'abril fatface', cursive, serif;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    font-family: 'teko:wght@300', sans-serif;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
