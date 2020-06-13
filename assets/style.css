@@ -1,3 +1,12 @@
+@media (min-width: 576px) {
+    h5 {
+        font-size: 20px; 
+        padding: 40px;
+    }
+ }
+
+
+
 body {
     background-image: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=2000&w=1300);
 }
@@ -10,53 +19,61 @@ body {
     font-family: 'teko:wght@300', sans-serif;
 }
 
+.container {
+    background-color: white;
+    padding: 20px;
+}
+
 .img-fluid {
     border-radius: 50%;
-    max-height: 700px;
+    max-height: 500px;
     padding: 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.quote {
-    text-align: center;
-    color: white;
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 20px;
-}
-
-.about {
-    text-align: center;
-    font-size: 50px;
-    padding: 20px;
-}
-
-.background,
-.hobbies {
-    background-color: rgb(247, 170, 215);
-    padding: 20px;
-    color: white;
+    float: left;
 }
 
 .container h1 {
     font-family: 'abril fatface', cursive, serif;
+    color: grey;
+}
+
+.about {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.background {
+    padding: 20px;
+}
+
+
+
+.card-img-top {
+    max-width: 100%;
+    min-height: 400px;
+    max-height: 450px;
+}
+
+h5 {
+    font-family: 'Archivo Narrow', sans-serif;
     color: white;
+    font-size: 35px;
+    text-align: center;
+    background-color: pink;
+    margin-top: 370px;
+    margin-bottom: 300px;
+    padding: 30px;
+
 }
 
-.background img {
-    float: left;
-    padding: 15px;
-    max-height: 180px;
-}
 
-.background p,
-.hobbies p {
+.background p {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 20px;
 }
 
 footer {
+    background-color: pink;
     font-family: 'teko:wght@300', sans-serif;
     padding: 15px;
     text-align: center;
